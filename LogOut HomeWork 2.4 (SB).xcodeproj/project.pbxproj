@@ -13,6 +13,7 @@
 		D995A4A5258630E5008074DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D995A4A3258630E5008074DE /* Main.storyboard */; };
 		D995A4A7258630E6008074DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D995A4A6258630E6008074DE /* Assets.xcassets */; };
 		D995A4AA258630E6008074DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D995A4A8258630E6008074DE /* LaunchScreen.storyboard */; };
+		D995A4B925863F6D008074DE /* WelcomeSecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995A4B825863F6D008074DE /* WelcomeSecondPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D995A4A6258630E6008074DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D995A4A9258630E6008074DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D995A4AB258630E6008074DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D995A4B825863F6D008074DE /* WelcomeSecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSecondPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		D995A49C258630E5008074DE /* LogOut HomeWork 2.4 (SB) */ = {
 			isa = PBXGroup;
 			children = (
-				D995A49D258630E5008074DE /* AppDelegate.swift */,
+				D995A4B32586315C008074DE /* Supporting Files */,
 				D995A49F258630E5008074DE /* SceneDelegate.swift */,
+				D995A49D258630E5008074DE /* AppDelegate.swift */,
+				D995A4B825863F6D008074DE /* WelcomeSecondPage.swift */,
 				D995A4A1258630E5008074DE /* ViewController.swift */,
 				D995A4A3258630E5008074DE /* Main.storyboard */,
-				D995A4A6258630E6008074DE /* Assets.xcassets */,
 				D995A4A8258630E6008074DE /* LaunchScreen.storyboard */,
-				D995A4AB258630E6008074DE /* Info.plist */,
 			);
 			path = "LogOut HomeWork 2.4 (SB)";
+			sourceTree = "<group>";
+		};
+		D995A4B32586315C008074DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D995A4A6258630E6008074DE /* Assets.xcassets */,
+				D995A4AB258630E6008074DE /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 				D995A4A2258630E5008074DE /* ViewController.swift in Sources */,
 				D995A49E258630E5008074DE /* AppDelegate.swift in Sources */,
 				D995A4A0258630E5008074DE /* SceneDelegate.swift in Sources */,
+				D995A4B925863F6D008074DE /* WelcomeSecondPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,7 +300,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JRJJLU622B;
-				INFOPLIST_FILE = "LogOut HomeWork 2.4 (SB)/Info.plist";
+				INFOPLIST_FILE = "LogOut HomeWork 2.4 (SB)/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.LogOut-HomeWork-2-4--SB-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +320,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JRJJLU622B;
-				INFOPLIST_FILE = "LogOut HomeWork 2.4 (SB)/Info.plist";
+				INFOPLIST_FILE = "LogOut HomeWork 2.4 (SB)/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.LogOut-HomeWork-2-4--SB-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
